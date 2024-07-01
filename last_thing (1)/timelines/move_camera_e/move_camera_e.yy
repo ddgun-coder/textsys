@@ -1,0 +1,12 @@
+{
+  "$GMTimeline":"",
+  "%Name":"move_camera_e",
+  "momentList":[],
+  "name":"move_camera_e",
+  "parent":{
+    "name":"Timelines",
+    "path":"folders/Timelines.yy",
+  },
+  "resourceType":"GMTimeline",
+  "resourceVersion":"2.0",
+}
