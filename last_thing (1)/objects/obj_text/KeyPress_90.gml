@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (!visible) exit;
 if (in_choice) {
-	ds_queue_copy(line_queue, npc_id.get_line(choice_this, answer_array));
+	ds_queue_copy(line_queue, answer_array[choice_this]);
 	dequeue(line_queue);
 	in_choice = false;
 	instance_destroy(obj_text_abs);

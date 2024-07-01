@@ -2,6 +2,18 @@
 // You can write your code in this editor
 event_inherited();
 
+function get_line(index, answer = line_queue) {
+	if (global.gold >= 0) {
+		return line_queue[min(array_length(line_queue) - 1, count)];
+	}
+	else if (global.gold <= -125) {
+		return 	branch_queue2;
+	}
+	else {
+		return branch_queue;
+	}
+}
+
 line_queue[0] = ds_queue_create();
 line_queue[1] = ds_queue_create();
 
